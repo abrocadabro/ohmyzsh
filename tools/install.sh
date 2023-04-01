@@ -65,7 +65,7 @@ zdot="${ZDOTDIR:-$HOME}"
 # b) otherwise, $HOME/.oh-my-zsh
 [ "$ZDOTDIR" = "$HOME" ] || ZSH="${ZSH:-${ZDOTDIR:+$ZDOTDIR/ohmyzsh}}"
 #ZSH="${ZSH:-$HOME/.oh-my-zsh}"
-ZSH="${ZSH:-$HOME/.xxh/.oh-my-zsh}"
+ZSH="${ZSH:-$HOME/.config/.oh-my-zsh}"
 
 # Default settings
 REPO=${REPO:-ohmyzsh/ohmyzsh}
